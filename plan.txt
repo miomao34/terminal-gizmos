@@ -1,0 +1,13 @@
+1.	Defragmentation: a bubble-sort of X types of elements, each shown in a different colour and with a weight assigned;
+	every N-th step can be shown.
+	Can be scaled easily; border is the only UI element.
+2.	Encryption/decryption: basically no-more-secrets that follows some pattern like left-to-right, top-to-bottom or diagonal-from-center. 
+	Every step should update N*k random characters where N is variable and 0<=k<=1, k=(still_not_encrypted/number_of_all_characters)
+	Can be scaled easily; border is the only UI element.
+3.	ASCII characters: columns of binary representations of random characters that change randomly
+	Or random binary data in columns
+	That may be pretty silly though
+	Can be scaled easily on horizontal axis; vertical axis has to be a multiple of 9 or centered. Border is the only UI element.
+4.	Histogram/bar chart - some random data graphs that scroll from left to right
+	Can be scaled easily; border is the only UI element.
+5.	Drone control - logs and statuses of drones 
